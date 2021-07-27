@@ -1,6 +1,6 @@
  {
   "userName": "John Meyers",
-  "jobTitle": "Front End Software Engineer",
+  "propectiveJobTitle": "Front End Software Engineer",
   "contactInfo": {
     "emailAddress": "johnpmeyers20@yahoo.com",
     "phoneNumber": "347.696.5676",
@@ -9,5 +9,31 @@
   "summary": [
     "Front-end Software Engineer with 8+ years of experience driving process improvement in HR, Operations, and Sales.",
     "Created and Maintained an Excel VBA at the United Nations that dramatically reduced recruitment times during the refugee crisis"
+  ],
+  "workExperience": [
+    {
+      "jobTitle": "Software Engineer Fellow", 
+      "jobDates": "February 2020 - May 2020", 
+      "company": "General Assembly",
+      "tasks": [
+        "Completed 500+ hour immersive training in Full Stack Software Engineering",
+        "Developed skills and fluency on 5 projects using HTML, CSS (applying the BEM method), JavaScript and React framework for a responsive frontend and API calls",
+        "Built full-stack web applications using SQL, MongoDB, Express, Node, Ruby and Ruby on Rails for the backend",
+        "Researched relevant Computer Science topics, such as data structures, and reviewed algorithm solutions in daily lessons",
+        "Collaborated with UX Design team on 2 projects using Agile Methodology to reinvent restaurant website",
+        "Employed version control and basic Git use on all projects (https://github.com/johnpmeyers20)"
+      ]
+    },
+    {
+      "jobTitle": "Sales and Operations Associate",
+      "jobDates": "October 2018 - January 2020",
+      "company": "Guitar Center",
+      "tasks": [
+        "Embarked on deep dive into JavaScript and the fundamentals of web development outside of work",
+        "Decided to invest in my passion for code and was accepted to General Assembly",
+        "Learned the fundamentals of sales (sold over $50,000 in guitars and gear every month), which translate easily to Software",
+        "Used communication skills to help clients achieve better understanding of product"
+      ]
+    }
   ]
 }

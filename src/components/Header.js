@@ -9,6 +9,7 @@ const Header = (props) => {
         <li className="contact-info-item">{props.user.contactInfo.phoneNumber}</li>
         <li className="contact-info-item">{props.user.contactInfo.linkedIn}</li>
       </ul>
+      <hr />
     </>
   )
 }
