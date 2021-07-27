@@ -1,8 +1,13 @@
  {
   "userName": "John Meyers",
+  "jobTitle": "Front End Software Engineer",
   "contactInfo": {
     "emailAddress": "johnpmeyers20@yahoo.com",
     "phoneNumber": "347.696.5676",
     "linkedIn": "https://www.linkedin.com/in/jpmeyers/"
-  }
+  },
+  "summary": [
+    "Front-end Software Engineer with 8+ years of experience driving process improvement in HR, Operations, and Sales.",
+    "Created and Maintained an Excel VBA at the United Nations that dramatically reduced recruitment times during the refugee crisis"
+  ]
 }

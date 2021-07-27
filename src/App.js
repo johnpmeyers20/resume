@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css'
 import Data from './data.json'
+
 import Header from './components/Header'
+import Summary from './components/Summary'
 
 const jp = Data;
 
@@ -10,7 +12,9 @@ const App = () => {
     <div className="book">
       <div className="page">
         <div className="subpage">
-          <Header user={jp}/>
+          <Header user={jp} />
+          <hr />
+          <Summary user={jp} />
         </div>
       </div>
     </div>
