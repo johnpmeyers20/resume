@@ -26,9 +26,9 @@ _**Resume** is a webapp born of my frustration in trying to stylize a word docum
 
 ### Core Features
 
-This webapp features a precise milimeter-based representation of an A4 sheet of paper which will aid me visually to ensure that my resume has a better chance of being read. I snagged the basis for my code from this jsfiddle ([Dummy Link](http://jsfiddle.net/2wk6Q/2957/)) after finding it via this question on Stack Overflow ([Dummy Link](https://stackoverflow.com/questions/16649943/css-to-set-a4-paper-size))
+This webapp features a precise milimeter-based representation of an A4 sheet of paper which will aid me visually to ensure that my resume has a better chance of being read. I snagged the basis for my code from this [jsfiddle](http://jsfiddle.net/2wk6Q/2957/) after finding it via this question on [Stack Overflow](https://stackoverflow.com/questions/16649943/css-to-set-a4-paper-size)
 
-Future future features please refer to the [Post-MVP](#Post-MVP) section .
+For future features please refer to the [Post-MVP](#Post-MVP) section.
 
 ### Goals
 
