@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css'
+import Data from './data.json'
 import Header from './components/Header'
+
+const jp = Data;
 
 const App = () => {
   return (
     <div className="book">
       <div className="page">
         <div className="subpage">
-          <Header />
+          <Header user={jp}/>
         </div>
       </div>
     </div>

@@ -1,0 +1,8 @@
+ {
+  "userName": "John Meyers",
+  "contactInfo": {
+    "emailAddress": "johnpmeyers20@yahoo.com",
+    "phoneNumber": "347.696.5676",
+    "linkedIn": "https://www.linkedin.com/in/jpmeyers/"
+  }
+}
