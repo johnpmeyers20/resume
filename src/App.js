@@ -19,6 +19,9 @@ const App = () => {
 
   return (
     <div className="book">
+      <div className="left-col">
+        <button className="print-button">Print!</button>
+      </div>
       <div className="page">
         <div className="subpage">
           <Header user={jp} />

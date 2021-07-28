@@ -84,6 +84,25 @@ body {
   }
 }
 
+.book {
+  display: flex;
+}
+
+.left-col {
+  display: flex;
+  width: 250px;
+  background-color: orange;
+  justify-content: center;
+  justify-items: center;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  margin: 50px auto;
+  text-align: center;
+}
+
 .section-title {
   margin: 5px 0;
 }
