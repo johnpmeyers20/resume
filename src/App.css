@@ -47,20 +47,21 @@ body {
 .page {
   width: 216mm;
   min-height: 279mm;
-  padding: 20mm;
+  padding: 0 10mm;
   margin: 10mm auto;
-  border: 1px solid #d3d3d3;
+  /* border: 1px solid #d3d3d3; */
+  border-left: 20mm solid #1998FF;
   border-radius: 5px;
   background: white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-.subpage {
+/* .subpage {
   padding: 0 1cm 1cm;
   border: 5px solid black;
   height: 239mm;
   outline: 2cm solid #1998FF;
-}
+} */
 
 @page {
   size: Letter;
@@ -83,6 +84,16 @@ body {
   }
 }
 
+.section-title {
+  margin: 5px 0;
+}
+.section-title, .jobDates {
+  color: #1998ff;
+}
+
+.list {
+  margin-top: 0;
+}
 /* ***************************************** */
 /* ************* End A4 Effects ************ */
 /* ***************************************** */
@@ -95,17 +106,40 @@ body {
 }
 .userName {
   margin: 10px;
+  padding-top: 10px;
   text-align: center;
+}
+
+.section-title.header {
+  margin-bottom: 0;
 }
 
 .contact-info-list {
   display: flex;
   list-style-type: none;
-  font-size: 11px;
+  font-size: 14px;
   justify-content: space-evenly;
   padding: 0;
 }
 
 /* ***************************************** */
 /* *************** End Header ************** */
+/* ***************************************** */
+
+/* ***************************************** */
+/* ************ Work Experience ************ */
+/* ***************************************** */
+.work-experience-container h4 {
+  margin: 0;
+}
+.job-info-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  color: #7D797D;
+}
+/* ***************************************** */
+/* ********** End Work Experience ********** */
 /* ***************************************** */

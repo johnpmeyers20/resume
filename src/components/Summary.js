@@ -8,8 +8,8 @@ const Summary = (props) => {
   
   return (
     <>
-      <h3>{props.user.propectiveJobTitle} Summary</h3>
-      <ul className="summary-list">
+      <h3 className="section-title header">{props.user.propectiveJobTitle} Summary</h3>
+      <ul className="summary-list list">
         {summaryListItems}
       </ul>
       <hr />

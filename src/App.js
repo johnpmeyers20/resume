@@ -26,7 +26,6 @@ const App = () => {
           <WorkExperience user={jp} />
         </div>
       </div>
-      <button onClick={print}>Create Docx</button>
     </div>
   )
 }
