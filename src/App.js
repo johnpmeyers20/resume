@@ -14,13 +14,14 @@ const jp = Data;
 
 const App = () => {
   const print = () => {
+    console.log('print')
     window.print()
   }
 
   return (
     <div className="book">
       <div className="left-col">
-        <button className="print-button">Print!</button>
+        <button className="print-button" onClick={print}>Print!</button>
       </div>
       <div className="page">
         <div className="subpage">

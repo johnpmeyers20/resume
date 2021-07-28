@@ -48,7 +48,7 @@ body {
   width: 216mm;
   min-height: 279mm;
   padding: 0 10mm;
-  margin: 10mm auto;
+  margin: 0 auto;
   /* border: 1px solid #d3d3d3; */
   border-left: 20mm solid #1998FF;
   border-radius: 5px;
@@ -67,7 +67,7 @@ body {
   size: Letter;
   margin: 0;
 }
-@media print {
+/* @media print {
   html, body {
     width: 216mm;
     height: 279mm;
@@ -81,6 +81,20 @@ body {
     box-shadow: initial;
     background: initial;
     page-break-after: always;
+  }
+} */
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .page, .page * {
+    visibility: visible;
+  }
+  .page {
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 }
 
